@@ -22,6 +22,8 @@
 // console.log(text.join(" "))
 
 
+
+
 // item 5
 // let userChoice = prompt("Задай вопрос!")
 
@@ -38,3 +40,25 @@
 //     "Компьютер говорит нет"
 // ]
 // alert(textResponse[mtRandom(0,textResponse.length - 1)])
+
+//  item 6
+
+// let userWord = prompt("Введите слово для перевода!").toLocaleLowerCase()
+
+// let dictionary = [
+//     ["dog","собака"],["сat","кошка"],
+//     ["orange", "апельсин"], ["apple","яблоко"],
+//     ["home","дом"],["pen","ручка"],
+//     ["laptop","ноутбук"],["day","день"],
+//     ["month","месяц"],["watch","часы"],
+// ]
+    
+// function translationWord(dictionary){
+//     // console.log(userWord.split(" "))
+//     let translationWord = Object.fromEntries(dictionary)
+//     return userWord.split(" ").map(item => {
+//         return translationWord[item] ? translationWord[item]:"?"
+//     }).join(" ")
+    
+// }
+// alert(`Ваш перевод: ${translationWord(dictionary)}`)
